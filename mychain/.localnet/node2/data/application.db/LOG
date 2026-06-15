@@ -1,0 +1,40 @@
+=============== May 19, 2026 (IST) ===============
+09:55:14.074676 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:55:14.078485 db@open opening
+09:55:14.078644 version@stat F·[] S·0B[] Sc·[]
+09:55:14.079831 db@janitor F·2 G·0
+09:55:14.079842 db@open done T·1.347234ms
+09:55:57.419668 db@close closing
+09:55:57.419701 db@close done T·32.171µs
+=============== May 19, 2026 (IST) ===============
+09:56:27.317285 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:56:27.317448 version@stat F·[] S·0B[] Sc·[]
+09:56:27.317461 db@open opening
+09:56:27.317509 journal@recovery F·1
+09:56:27.317689 journal@recovery recovering @1
+09:56:27.319059 memdb@flush created L0@2 N·13 S·428B "s/k..ion,v7":"s/k..ion,v4"
+09:56:27.319215 version@stat F·[1] S·428B[428B] Sc·[0.25]
+09:56:27.323871 db@janitor F·3 G·0
+09:56:27.323901 db@open done T·6.420891ms
+09:59:44.060844 db@close closing
+09:59:44.060969 db@close done T·121.236µs
+=============== May 19, 2026 (IST) ===============
+10:00:18.993231 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:00:18.993362 version@stat F·[1] S·428B[428B] Sc·[0.25]
+10:00:18.993375 db@open opening
+10:00:18.993429 journal@recovery F·1
+10:00:18.993509 journal@recovery recovering @3
+10:00:18.993738 version@stat F·[1] S·428B[428B] Sc·[0.25]
+10:00:19.000264 db@janitor F·3 G·0
+10:00:19.000281 db@open done T·6.885432ms
+10:36:18.049961 memdb@flush N·41381 S·3MiB
+10:36:18.069794 memdb@flush created L0@8 N·41381 S·1MiB "s/1,v330":"s/latest,v331"
+10:36:18.069842 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+10:36:18.070771 memdb@flush committed F·1 T·20.783454ms
+10:36:18.071641 journal@remove removed @5
+10:40:56.357022 table@compaction L0·2 -> L1·0 S·1MiB Q·46814
+10:40:56.406915 table@build created L1@9 N·28135 S·1MiB "s/1,v330":"s/latest,v41391"
+10:40:56.406951 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+10:40:56.407761 table@compaction committed F-1 S-218KiB Ke·0 D·13259 T·50.644715ms
+10:40:56.408149 table@remove removed @8
+10:40:56.408185 table@remove removed @2

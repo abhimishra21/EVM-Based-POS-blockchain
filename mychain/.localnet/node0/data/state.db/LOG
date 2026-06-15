@@ -1,0 +1,37 @@
+=============== May 19, 2026 (IST) ===============
+09:55:16.508021 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:55:16.510666 db@open opening
+09:55:16.510807 version@stat F·[] S·0B[] Sc·[]
+09:55:16.511673 db@janitor F·2 G·0
+09:55:16.511686 db@open done T·1.010205ms
+09:55:57.213321 db@close closing
+09:55:57.213363 db@close done T·41.044µs
+=============== May 19, 2026 (IST) ===============
+09:56:28.714605 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:56:28.714683 version@stat F·[] S·0B[] Sc·[]
+09:56:28.714698 db@open opening
+09:56:28.714737 journal@recovery F·1
+09:56:28.714814 journal@recovery recovering @1
+09:56:28.715912 memdb@flush created L0@2 N·6 S·4KiB "con..y:1,v4":"val..y:2,v3"
+09:56:28.716023 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+09:56:28.719959 db@janitor F·3 G·0
+09:56:28.719972 db@open done T·5.268654ms
+09:59:43.864306 db@close closing
+09:59:43.864489 db@close done T·173.795µs
+=============== May 19, 2026 (IST) ===============
+10:00:20.497085 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:00:20.497174 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+10:00:20.497187 db@open opening
+10:00:20.497236 journal@recovery F·1
+10:00:20.497333 journal@recovery recovering @3
+10:00:20.502979 memdb@flush created L0@5 N·5 S·629B "con..y:1,v10":"val..y:2,v9"
+10:00:20.505481 version@stat F·[2] S·4KiB[4KiB] Sc·[0.50]
+10:00:20.509412 db@janitor F·4 G·0
+10:00:20.509432 db@open done T·12.239986ms
+11:02:20.150035 memdb@flush N·3470 S·3MiB
+11:02:20.186950 memdb@flush created L0@9 N·3470 S·980KiB "abc..y:1,v19":"val..:99,v501"
+11:02:20.187000 version@stat F·[3] S·985KiB[985KiB] Sc·[0.75]
+11:02:20.189603 memdb@flush committed F·1 T·37.489149ms
+11:02:20.191350 journal@remove removed @6
+11:02:42.034782 db@close closing
+11:02:42.035605 db@close done T·821.473µs

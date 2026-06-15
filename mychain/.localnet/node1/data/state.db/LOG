@@ -1,0 +1,35 @@
+=============== May 19, 2026 (IST) ===============
+09:55:15.820075 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:55:15.823397 db@open opening
+09:55:15.823525 version@stat F·[] S·0B[] Sc·[]
+09:55:15.824629 db@janitor F·2 G·0
+09:55:15.824648 db@open done T·1.242402ms
+09:55:57.318435 db@close closing
+09:55:57.318484 db@close done T·47.242µs
+=============== May 19, 2026 (IST) ===============
+09:56:28.062660 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:56:28.062736 version@stat F·[] S·0B[] Sc·[]
+09:56:28.062748 db@open opening
+09:56:28.062783 journal@recovery F·1
+09:56:28.062859 journal@recovery recovering @1
+09:56:28.064130 memdb@flush created L0@2 N·6 S·4KiB "con..y:1,v4":"val..y:2,v3"
+09:56:28.064343 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+09:56:28.073514 db@janitor F·3 G·0
+09:56:28.073537 db@open done T·10.783563ms
+09:59:43.957846 db@close closing
+09:59:43.957946 db@close done T·97.449µs
+=============== May 19, 2026 (IST) ===============
+10:00:19.903877 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:00:19.903961 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+10:00:19.903974 db@open opening
+10:00:19.904013 journal@recovery F·1
+10:00:19.904164 journal@recovery recovering @3
+10:00:19.908982 memdb@flush created L0@5 N·5 S·629B "con..y:1,v10":"val..y:2,v9"
+10:00:19.909172 version@stat F·[2] S·4KiB[4KiB] Sc·[0.50]
+10:00:19.914160 db@janitor F·4 G·0
+10:00:19.914174 db@open done T·10.195728ms
+11:02:20.190310 memdb@flush N·3470 S·3MiB
+11:02:20.201642 memdb@flush created L0@9 N·3470 S·980KiB "abc..y:1,v19":"val..:99,v501"
+11:02:20.201679 version@stat F·[3] S·985KiB[985KiB] Sc·[0.75]
+11:02:20.204145 memdb@flush committed F·1 T·13.786843ms
+11:02:20.205131 journal@remove removed @6
